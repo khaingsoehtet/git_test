@@ -1,0 +1,274 @@
+MaintHandler---debugPath ...:/u01/MTBDB/DEBUG/db_log
+MaintHandler---debugLevel ...:FINE
+MaintHandler---Logfilename ...:HNINNU003ELCM.TXT
+MaintHandler---reqProfile.getChannel():null
+MaintHandler------------ELCM DATABASE TRANSACTION STARTS-------------
+MaintHandler---reqProfile.getChannel():null
+ELRequestHandler---Inside Handle UI Request
+ELXmlParser-->Inside  parse
+ELXmlParser-->Parsed Successfuly
+ELRequestHandler---In else, profile.getSkipValidation()>>N
+AuditDao(SQLJ)---> Inside getProfileDetails
+AuditDao(SQLJ)---> ProfileDetails queried
+AuditDao(SQLJ)---> Got the values into Object Array
+AuditDao(SQLJ)---> 23747102 Going to get auto auth for screen from smtb_users_functions
+AuditDao(SQLJ)---> Exception Raised While getting userFunctionAutoAuth from  smtb_users_functions >>>>>>no rows found for select into statement
+ELAuditService-->releaseType:CUSTOM
+ELAuditService-->18838364 profile.getChannel():UI
+ELAuditService-->18838364 profile.getAutoAuth():null
+TransactionIDDao(SQLJ)-->Inside generateID updated the file with context ...
+TransactionIDDao(SQLJ)-->Generated Next Value of Sequence 28083
+ELRequestHandler---Audiit populated
+ELRequestParser-->Function Definition Instantiated
+ELRequestParser-->com.ofss.elcm.el.def.GEDCOLLT@fcb94fbb
+ELRequestHandler---Funftion Definition Initiated
+ELRequestHandler---Request message logging starts
+MessageLogger-->inside createRequestMessageLog
+ELRequestHandler---Request message logged
+ELRequestParser-->Going to Parse body 
+ELXmlParser-->Inside  parse
+ELXmlParser-->Parsed Successfuly
+ELRequestParser-->Successfully  Parsed body 
+ELRequestParser-->Going to get master block 
+ELRequestParser-->Master Name BLK_COLLATERALS
+ELRequestParser-->Got Values 
+ELRequestParser-->Outside If 
+ELRequestParser-->Inside createDataComponent 
+ELRequestParser-->Block Name >> BLK_COLLATERALS
+ELRequestParser-->Value >> N~N~Y~N~~~~~~~~~~~~~~~~N~~~~~~~~~N~~~S~~~N~~~~~~~437~~~~~~~~~~~~~N~~~~~~~~~~~~~~~
+ELRequestParser--> ELSE 
+ELRequestParser--> fieldNames size =69
+ELRequestParser--> parsedValues size =55
+ELRequestParser--> actualFieldValues size =69
+ELRequestParser-->Adding Child 
+ELRequestParser-->Exiting createDataComponent
+ELRequestHandler---Parsed UI XML
+ELRequestHandler---Final else part
+Dto Mapper --- Master Block Name = BLK_COLLATERALS
+Dto Mapper --- Mapping Dto For Block : BLK_COLLATERALS
+Dto Mapper --- Block Name = BLK_COLLATERALS
+Dto Mapper --- Dto Name com.ofss.elcm.el.dto.CollateralsDto
+Dto Mapper --- Will Generate The Key Value
+Dto Mapper --- Inside Get Key Id
+ELRequestHandler---Inside process
+ELRequestHandler---Calling Process 
+ELRequestHandler---Function ID  : GEDCOLLT
+ELRequestHandler---Action   : EXECUTEQUERY
+ELRequestHandler---Function Type    : T
+ELRequestHandler---Calling processTxn
+ELRequestHandler---Inside processTxn
+ELTransactionProcessor-->1.Inside processRequest
+ELTransactionProcessor-->Inside initMain
+ELTransactionProcessor-->Inside initInstance
+ELTransactionProcessor-->Master Block = BLK_COLLATERALS
+ELTransactionProcessor-->Master Class Name = Collaterals
+ELTransactionProcessor-->Derived Class Name com.ofss.elcm.el.CollateralsKernel
+ELTransactionProcessor-->Class Name->com.ofss.elcm.el.CollateralsKernel Instantiated Successfully
+ELTransactionProcessor-->Class Name->com.ofss.elcm.el.CollateralsKernelSys Instantiated Successfully
+ELTransactionProcessor-->Returning true from initInstance
+ELTransactionProcessor-->Inside checkMandatory
+ELTransactionProcessor-->Inside pre check mandatory
+CollateralsKernel-->Inside PreCheck Mandatory
+CollateralsKernel-->23504254, Branch validation changes start
+CollateralsKernel-->ELCM_BRANCH_VALIDATION>>Y
+CollateralsKernel-->Getting the LiabId-->>>>null
+CollateralsKernel-->Returning true from PreCheck Mandatory
+CollateralsKernel-->Getting the LiabName-->>>>null
+Inside getLiabName.. 
+Exception Occured in getLiabNo = no rows found for select into statement
+ELTransactionProcessor-->Inside sysCheckMandatory
+CollateralsKernelSys-->Inside sysCheckMandatory
+CollateralsKernelSys-->Returning True from sysCheckMandatory 
+ELTransactionProcessor-->Returning True from sysCheckMandatory
+ELTransactionProcessor-->Inside Post check mandatory
+CollateralsKernel-->Inside postCheckMandatory
+CollateralsKernel-->Returning true from postCheck Mandatory
+ELTransactionProcessor-->Returning True from postCheckMandatory
+ELTransactionProcessor-->Inside defaultAndValidate
+ELTransactionProcessor-->Inside query
+CollateralsKernel-->Inside preQuery
+CollateralsKernelDao(SQLJ)-->inside getUpdatedBlockAmt
+CollateralsKernelDao(SQLJ)-->in Exception :no rows found for select into statement
+CollateralsKernelDao(SQLJ)-->got getUpdatedBlockAmt0
+CollateralsKernel-->Returning true from preQuery
+ELTransactionProcessor-->Returning true from preQuery
+ELTransactionProcessor-->Inside sysQuery
+CollateralsKernelSys-->Inside Sys Query
+CollateralsKernelSysDao(SQLJ)-->Inside getCollaterals>>>> This IS Entry Point
+CollateralsKernelSysDao(SQLJ)-->Calling getCollaterals With Parameter ID
+CollateralsKernelSysDao(SQLJ)-->Inside getCollateralsBased on Id
+CollateralsKernelSysDao(SQLJ)-->Query Succeed Here 
+CollateralsKernelSysDao(SQLJ)-->Now Populating Dto
+UdfFieldsSumKernelSysDao(SQLJ)-->Inside getUdfFieldsSum
+UdfFieldsSumKernelSysDao(SQLJ)-->Qyery Success so Populating Dto
+UdfFieldsSumKernelSysDao(SQLJ)-->Calling getUdfFieldsMapList
+UdfFieldsSumKernelSysDao(SQLJ)-->Inside getUdfFieldsMapList
+UdfFieldsSumKernelSysDao(SQLJ)-->Query Success in getUdfFieldsMapList
+UdfFieldsSumKernelSysDao(SQLJ)-->Overall Query Success
+CollateralsKernelSysDao(SQLJ)-->Got The Udf Field Sum Maintenance
+CollateralsKernelSysDao(SQLJ)-->Setting Field Name SECURITY For Field Number 1
+CollateralsKernelSysDao(SQLJ)-->Setting Field Name GRANT'S ISSUE DATE For Field Number 2
+CollateralsKernelSysDao(SQLJ)-->Setting Field Name GRANT'S EXPIRE DATE For Field Number 3
+CollateralsKernelSysDao(SQLJ)-->Setting Field Val Others For Field Number 1
+CollateralsKernelSysDao(SQLJ)-->fieldName>> SECURITY For fieldVal Others
+CollateralsKernelSysDao(SQLJ)-->Going to fetch LOV Description
+CollateralsKernelSysDao(SQLJ)-->LOV Desc isOTHERS
+CollateralsKernelSysDao(SQLJ)-->Going to set datatype >>>
+CollateralsKernelSysDao(SQLJ)-->Going to check mandatory >>>
+CollateralsKernelSysDao(SQLJ)-->fieldName>> GRANT'S ISSUE DATE For fieldVal null
+CollateralsKernelSysDao(SQLJ)-->Going to set datatype >>>
+CollateralsKernelSysDao(SQLJ)-->Going to check mandatory >>>
+CollateralsKernelSysDao(SQLJ)-->fieldName>> GRANT'S EXPIRE DATE For fieldVal null
+CollateralsKernelSysDao(SQLJ)-->Going to set datatype >>>
+CollateralsKernelSysDao(SQLJ)-->Going to check mandatory >>>
+CollateralsKernelSysDao(SQLJ)-->Calling  getCollateralsInsuranceList
+CollateralsKernelSysDao(SQLJ)-->Inside getCollateralsInsuranceList
+CollateralsKernelSysDao(SQLJ)-->Query Success in getCollateralsInsuranceList
+CollateralsKernelSysDao(SQLJ)-->Calling  getCollateralsCovenantList
+CollateralsKernelSysDao(SQLJ)-->Inside getCollateralsCovenantList
+CollateralsKernelSysDao(SQLJ)-->Query Success in getCollateralsCovenantList
+CollateralsKernelSysDao(SQLJ)-->Calling  getCollateralsShareList
+CollateralsKernelSysDao(SQLJ)-->Inside getCollateralsShareList
+CollateralsKernelSysDao(SQLJ)-->Query Success in getCollateralsShareList
+CollateralsKernelSysDao(SQLJ)-->Calling  getCollateralsLinkedContractList
+CollateralsKernelSysDao(SQLJ)-->Inside getCollateralsLinkedContractList
+CollateralsKernelSysDao(SQLJ)-->Query Success in getCollateralsLinkedContractList
+CollateralsKernelSysDao(SQLJ)-->Calling  getCollateralsUdeValuesList
+CollateralsKernelSysDao(SQLJ)-->Inside getCollateralsUdeValuesList
+CollateralsKernelSysDao(SQLJ)-->Query Success in getCollateralsUdeValuesList
+CollateralsKernelSysDao(SQLJ)-->Calling  getCollateralsExtSysRestList
+CollateralsKernelSysDao(SQLJ)-->Inside getCollateralsExtSysRestList
+CollateralsKernelSysDao(SQLJ)-->Query Success in getCollateralsExtSysRestList
+CollateralsKernelSysDao(SQLJ)-->Calling  getCollHaircutsList
+CollateralsKernelSysDao(SQLJ)-->Inside getCollHaircutsList
+CollateralsKernelSysDao(SQLJ)-->Query Success in getCollHaircutsList
+CollateralsKernelSysDao(SQLJ)-->Calling  getRepos
+CollateralsKernelSysDao(SQLJ)-->Inside getRepos
+CollateralsKernelSysDao(SQLJ)-->Failed in getting Repos--> no rows found for select into statement
+CollateralsKernelSysDao(SQLJ)-->Calling  getCollFllAddonsList
+CollateralsKernelSysDao(SQLJ)-->Inside getCollFllAddonsList
+CollateralsKernelSysDao(SQLJ)-->Query Success in getCollFllAddonsList
+CollateralsKernelSysDao(SQLJ)-->Calling  getCollValuationList
+CollateralsKernelSysDao(SQLJ)-->Inside getCollValuationList
+CollateralsKernelSysDao(SQLJ)-->Query Success in getCollValuationList
+CollateralsKernelSysDao(SQLJ)-->Calling  getCollOthers
+CollateralsKernelSysDao(SQLJ)-->Inside getCollOthers
+CollateralsKernelSysDao(SQLJ)-->Failed in getting CollOthers--> no rows found for select into statement
+CollateralsKernelSysDao(SQLJ)-->Calling  getCollVehicle
+CollateralsKernelSysDao(SQLJ)-->Inside getCollVehicle
+CollateralsKernelSysDao(SQLJ)-->Failed in getting CollVehicle--> no rows found for select into statement
+CollateralsKernelSysDao(SQLJ)-->Calling  getHome
+CollateralsKernelSysDao(SQLJ)-->Inside getHome
+CollateralsKernelSysDao(SQLJ)-->Failed in getting Home--> no rows found for select into statement
+CollateralsKernelSysDao(SQLJ)-->Query Success
+CollateralsKernelSysDao(SQLJ)-->Inside getLiab
+CollateralsKernelSysDao(SQLJ)-->Returning Success from  getLiab
+CollateralsKernelSysDao(SQLJ)-->Inside getCollCategory
+CollateralsKernelSysDao(SQLJ)-->Returning Success from  getCollCategory
+CollateralsKernelSys-->Returning from sysQuery
+CollateralsKernel-->Inside postQuery
+CollateralsKernel-->Cross branch validation for query action
+CollateralsKernel-->ELCM_BRANCH_VALIDATION>>Y
+CollateralsKernel-->Cross branch validation for action>>EXECUTEQUERY
+CollateralsKernel-->User Branch>>>>003
+CollateralsKernel-->Record Branch>>>>003
+CollateralsKernel-->Returning from postQuery
+ELTransactionProcessor-->Returning true from postQuery
+CollateralsKernel-->Inside preDefaultAndValidate
+CollateralsKernel-->Inside preDefaultAndValidate : MaintenanceAction.QUERY SFR# 22627007 null check added
+CollateralsKernel-->Returning true from preDefaultAndValidate
+ELTransactionProcessor-->Returning True from preDefaultAndValidate
+ELTransactionProcessor-->Inside sysDefaultAndValidate
+CollateralsKernelSys-->Inside sysDefaultAndValidate
+CollateralsKernelSys--> sysDefaultAndValidate --> validationFailed = false
+CollateralsKernelSys-->Returning true from sysDefaultAndValidate
+ELTransactionProcessor-->Returning true from sysDefaultAndValidate
+CollateralsKernel-->Inside postDefaultAndValidate
+CollateralsKernel-->inside Validate of CollateralsKernel-->>>
+CollateralsKernelDao(SQLJ)-->Inside getUserRights--> 
+UserRestrictionKernelSysDao(SQLJ)-->Inside getUserRestriction>>>> This IS Entry Point
+UserRestrictionKernelSysDao(SQLJ)-->Inside getUserRestriction
+UserRestrictionKernelSysDao(SQLJ)-->Failed in getting UserRestriction--> no rows found for select into statement
+CollateralsKernel-->returning from checkUserRights..
+CollateralsKernel-->returning from Validate of CollateralsKernel-->>>
+CollateralsKernel-->Action EXECUTEQUERY
+CollateralsKernel-->Limit Contribution Before Rounding ->> 100000000
+CollateralsKernel-->Going For Rounding Values >> For Query
+CollateralsKernel-->inside roundAmountFields
+CollateralsKernel-->Before Rounding CollateralValue : 100000000
+CurrencyUtilKernelDao(SQLJ) ---> Inside getCurrencyDefinition
+CurrencyService ---> Amount after striping ZEROs :1E+8
+CurrencyService ---> indexofDot :-1
+CurrencyService ---> Rounding Unit s not zero....
+CurrencyService ---> precision1
+CurrencyService ---> decimal==>100000000
+CollateralsKernel-->After Rounding CollateralValue : 100000000
+CollateralsKernel-->Before Rounding UtilAmt : 0
+CurrencyUtilKernelDao(SQLJ) ---> Inside getCurrencyDefinition
+CurrencyService ---> Rounding Unit s not zero....
+CurrencyService ---> precision1
+CurrencyService ---> decimal==>0
+CollateralsKernel-->After Rounding UtilAmt : 0
+CollateralsKernel-->Before Rounding AvailableAmount : 0
+CurrencyUtilKernelDao(SQLJ) ---> Inside getCurrencyDefinition
+CurrencyService ---> Rounding Unit s not zero....
+CurrencyService ---> precision1
+CurrencyService ---> decimal==>0
+CollateralsKernel-->After Rounding AvailableAmount : 0
+CollateralsKernel-->Before Rounding LimitContribution : 100000000
+CurrencyUtilKernelDao(SQLJ) ---> Inside getCurrencyDefinition
+CurrencyService ---> Amount after striping ZEROs :1E+8
+CurrencyService ---> indexofDot :-1
+CurrencyService ---> Rounding Unit s not zero....
+CurrencyService ---> precision1
+CurrencyService ---> decimal==>100000000
+CollateralsKernel-->After Rounding LimitContribution : 100000000
+CollateralsKernel-->21657572, going to round contract contribution >> With Branch
+CollateralsKernel-->Successfully Rounded ...
+CollateralsKernel-->Returning true from postDefaultAndValidate
+ELTransactionProcessor-->Returning True from postDefaultAndValidate
+ELTransactionProcessor-->Returning true from defaultAndValidate
+ELTransactionProcessor-->Scanning the Error even if no failure
+ELTransactionProcessor-->Inside Scan Error
+ELMessageService-->Scanning Errors
+ELTransactionProcessor-->Final Error Type = I
+ELTransactionProcessor-->Action Query Returnign from here itself
+ELMessageService-->Getting Error Details
+MessageDao(SQLJ) -->Inside getErrorMessage
+MessageDao(SQLJ) -->Error Message Queried Successfully
+ELMessageService-->Error Code = ST-SAVE-025
+ELMessageService-->Error Desc = Record Successfully Retrieved
+ELMessageService-->Error Type = I
+ELMessageService-->Inside Refine Message
+ELMessageService-->Error Code = ST-SAVE-025
+ELMessageService-->Error Desc = Record Successfully Retrieved
+ELMessageService-->Error Type = I
+ELRequestHandler--- Mapping DTO to data Component
+Dto Mapper --- Inside mapDtoToDataComponent
+Dto Mapper --- Class Name : CollateralsDto
+Dto Mapper --- 20552537 starts
+Dto Mapper --- 20552537 releasetypeCOLLATERALS
+Dto Mapper --- Derived Block Name : BLK_COLLATERALS
+Dto Mapper --- Inside mapDtoToDataComponent
+Dto Mapper --- Class Name : CollHaircutsDto
+Dto Mapper --- 20552537 starts
+Dto Mapper --- 20552537 releasetypeHAIRCUTS
+Dto Mapper --- Derived Block Name : BLK_COLL_HAIRCUTS
+Dto Mapper --- Inside mapDtoToDataComponent
+Dto Mapper --- Class Name : UdfDto
+Dto Mapper --- Derived Block Name : BLK_UDF_DETAILS
+Dto Mapper --- Inside mapDtoToDataComponent
+Dto Mapper --- Class Name : UdfDto
+Dto Mapper --- Derived Block Name : BLK_UDF_DETAILS
+Dto Mapper --- Inside mapDtoToDataComponent
+Dto Mapper --- Class Name : UdfDto
+Dto Mapper --- Derived Block Name : BLK_UDF_DETAILS
+ELRequestHandler---Mapping Success
+ELResponseBuilder-->26313204 changes, &amp will not be replaced with & while sending response
+ELResponseBuilder-->Res type is>>UI
+ELResponseBuilder-->this.isWs>>false
+ELRequestHandler---Success Response message logging starts
+MessageLogger-->inside createResponseMessageLog
+ELRequestHandler---Success Response message logged
+MaintHandler----------------ELCM TRANSACTION ENDS----------------
+MaintHandler---Dto Object Set Back to BLOB
