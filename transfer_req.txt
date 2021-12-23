@@ -39,9 +39,17 @@
 	</S:Body>
 </S:Envelope>--------------------
 
+<<<<<<< HEAD
+
+##Testing push from local
+=======
 ##testing changes by ksh
 
 ##testin agin by browser
+<<<<<<< HEAD
 
 
 ##testing from local repo
+=======
+>>>>>>> be3ed94e1d48371f8f566215f315b5d3f9820801
+>>>>>>> b50818f10e3069f4cde9d8c1715832c95d45b3d3
