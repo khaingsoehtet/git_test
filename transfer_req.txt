@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<S:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+	<env:Header>
+		<work:WorkContext xmlns:work="http://oracle.com/weblogic/soap/workarea/">rO0ABXeWACZ3ZWJsb2dpYy5kaWFnbm9zdGljcy5EaWFnbm9zdGljQ29udGV4dAAAAX8AAAAyd2VibG9naWMuZGlhZ25vc3RpY3MuY29udGV4dC5EaWFnbm9zdGljQ29udGV4dEltcGwAAAAlfDAwMDdiZnN4NDRHN3kwYUx4TUw2aVcwMDAwd2EwMDBOTlJ8fAAAAAIAAAAAAAAA</work:WorkContext>
+	</env:Header>
+	<S:Body>
+		<CREATEPCCONTRACT_FSFS_REQ xmlns="http://fcubs.ofss.com/service/FCUBSExtPCService">
+			<FCUBS_HEADER>
+				<SOURCE>FCAT</SOURCE>
+				<UBSCOMP>FCUBS</UBSCOMP>
+				<MSGID>04DIC22M0K</MSGID>
+				<CORRELID>04DIC22M0K</CORRELID>
+				<USERID>FCATOP</USERID>
+				<BRANCH>005</BRANCH>
+				<SERVICE>FCUBSExtPCService</SERVICE>
+				<OPERATION>CreatePCContract</OPERATION>
+				<MSGSTAT>SUCCESS</MSGSTAT>
+			</FCUBS_HEADER>
+			<FCUBS_BODY>
+				<Pctb-Contract-Master-Full>
+					<TXNCCY>MMK</TXNCCY>
+					<CUSACCCY>MMK</CUSACCCY>
+					<REMRK>Self Trn</REMRK>
+					<SRCCOD>FCAT</SRCCOD>
+					<SRCREF>04DIC22M0K</SRCREF>
+					<PRDCAT>OUPA</PRDCAT>
+					<PRDCOD>BKMM</PRDCOD>
+					<ACBRN1>005</ACBRN1>
+					<CUSACNO>00501201001001967001</CUSACNO>
+					<CPBNKCOD>91929192005</CPBNKCOD>
+					<CPACNO>00501401001001967001</CPACNO>
+					<COUNTERPRTYNAME>Own Account</COUNTERPRTYNAME>
+					<ACTDT>2021-12-10</ACTDT>
+					<ACTAMT>30000</ACTAMT>
+					<AUTHORIZATION_STATUS>A</AUTHORIZATION_STATUS>
+				</Pctb-Contract-Master-Full>
+			</FCUBS_BODY>
+		</CREATEPCCONTRACT_FSFS_REQ>
+	</S:Body>
+</S:Envelope>--------------------
