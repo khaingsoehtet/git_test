@@ -56,6 +56,4 @@
 
 
 ## testing from local repot 2nd
-
-##testing from VS
-UBS side test
+##testing from web for vs
