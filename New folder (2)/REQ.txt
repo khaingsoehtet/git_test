@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<S:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+	<env:Header>
+		<work:WorkContext xmlns:work="http://oracle.com/weblogic/soap/workarea/">rO0ABXoAAAE6ABJ3ZWJsb2dpYy5hcHAuR1dFSkIAAADWAAAAI3dlYmxvZ2ljLndvcmthcmVhLlN0cmluZ1dvcmtDb250ZXh0AAsxMi4wLjMuMjIuMAAmd2VibG9naWMuZGlhZ25vc3RpY3MuRGlhZ25vc3RpY0NvbnRleHQAAAF/AAAAMndlYmxvZ2ljLmRpYWdub3N0aWNzLmNvbnRleHQuRGlhZ25vc3RpY0NvbnRleHRJbXBsAAAAJXwwMDA3YmZUV2Frazd5MGFMeE1MNmlXMDAwMHdSMDAwTlRhfHwAAAACAAAAAAAAHndlYmxvZ2ljLmFwcC5GQ1VCU0V4dFBDU2VydmljZQAAANYAAAAjd2VibG9naWMud29ya2FyZWEuU3RyaW5nV29ya0NvbnRleHQACzEyLjAuMy4yMi4wAAA=</work:WorkContext>
+	</env:Header>
+	<S:Body>
+		<CREATEPCCONTRACT_FSFS_REQ xmlns="http://fcubs.ofss.com/service/FCUBSExtPCService">
+			<FCUBS_HEADER>
+				<SOURCE>FCAT</SOURCE>
+				<UBSCOMP>FCUBS</UBSCOMP>
+				<MSGID>66c7e8000762810</MSGID>
+				<CORRELID>66c7e8000762810</CORRELID>
+				<USERID>FCATOP</USERID>
+				<BRANCH>005</BRANCH>
+				<SERVICE>FCUBSExtPCService</SERVICE>
+				<OPERATION>CreatePCContract</OPERATION>
+				<MSGSTAT>SUCCESS</MSGSTAT>
+			</FCUBS_HEADER>
+			<FCUBS_BODY>
+				<Pctb-Contract-Master-Full>
+					<TXNCCY>MMK</TXNCCY>
+					<CUSACCCY>MMK</CUSACCCY>
+					<REMRK>Bill Payment request from OBDX</REMRK>
+					<SRCCOD>FCAT</SRCCOD>
+					<SRCREF>66c7e8000762810</SRCREF>
+					<PRDCAT>BTPT</PRDCAT>
+					<PRDCOD>BTRF</PRDCOD>
+					<ACBRN1>005</ACBRN1>
+					<CUSACNO>00501401001001754001</CUSACNO>
+					<CPBNKCOD>91929192005</CPBNKCOD>
+					<CPACNO>228101029</CPACNO>
+					<ACTDT>2021-12-09</ACTDT>
+					<ACTAMT>10000</ACTAMT>
+					<AUTHORIZATION_STATUS>A</AUTHORIZATION_STATUS>
+					<CATGPURPTYP>C</CATGPURPTYP>
+					<Pctbs-Udf-Details>
+						<FLDNAME>BILLER_NUMBER</FLDNAME>
+						<FLDVAL>MPTELOAD</FLDVAL>
+						<FLDNO>2</FLDNO>
+					</Pctbs-Udf-Details>
+				</Pctb-Contract-Master-Full>
+			</FCUBS_BODY>
+		</CREATEPCCONTRACT_FSFS_REQ>
+	</S:Body>
+</S:Envelope>--------------------
